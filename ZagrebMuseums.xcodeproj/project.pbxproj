@@ -19,6 +19,9 @@
 		DE1A480A1FBA1E4E009112E5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A48091FBA1E4E009112E5 /* InterfaceController.swift */; };
 		DE1A480C1FBA1E4E009112E5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A480B1FBA1E4E009112E5 /* ExtensionDelegate.swift */; };
 		DE1A480E1FBA1E4E009112E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1A480D1FBA1E4E009112E5 /* Assets.xcassets */; };
+		DE1A48221FBA2524009112E5 /* MuseumsTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A48211FBA2524009112E5 /* MuseumsTableRowController.swift */; };
+		DE1A48241FBA2654009112E5 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A48231FBA2654009112E5 /* Museum.swift */; };
+		DE1A482A1FBA2C59009112E5 /* ZagrebMuseums.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1A48291FBA2C59009112E5 /* ZagrebMuseums.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		DE1A480B1FBA1E4E009112E5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		DE1A480D1FBA1E4E009112E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1A480F1FBA1E4E009112E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1A48211FBA2524009112E5 /* MuseumsTableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumsTableRowController.swift; sourceTree = "<group>"; };
+		DE1A48231FBA2654009112E5 /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		DE1A48291FBA2C59009112E5 /* ZagrebMuseums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ZagrebMuseums.plist; path = ../../ZagrebMuseums.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,10 +152,13 @@
 		DE1A48081FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DE1A48291FBA2C59009112E5 /* ZagrebMuseums.plist */,
 				DE1A48091FBA1E4E009112E5 /* InterfaceController.swift */,
 				DE1A480B1FBA1E4E009112E5 /* ExtensionDelegate.swift */,
 				DE1A480D1FBA1E4E009112E5 /* Assets.xcassets */,
 				DE1A480F1FBA1E4E009112E5 /* Info.plist */,
+				DE1A48211FBA2524009112E5 /* MuseumsTableRowController.swift */,
+				DE1A48231FBA2654009112E5 /* Museum.swift */,
 			);
 			path = "ZagrebMuseums WatchKit Extension";
 			sourceTree = "<group>";
@@ -222,7 +231,7 @@
 				TargetAttributes = {
 					DE1A47E21FBA1E4E009112E5 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					DE1A47F41FBA1E4E009112E5 = {
 						CreatedOnToolsVersion = 9.1;
@@ -279,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1A480E1FBA1E4E009112E5 /* Assets.xcassets in Resources */,
+				DE1A482A1FBA2C59009112E5 /* ZagrebMuseums.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1A480C1FBA1E4E009112E5 /* ExtensionDelegate.swift in Sources */,
+				DE1A48221FBA2524009112E5 /* MuseumsTableRowController.swift in Sources */,
 				DE1A480A1FBA1E4E009112E5 /* InterfaceController.swift in Sources */,
+				DE1A48241FBA2654009112E5 /* Museum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,12 +543,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZagrebMuseums/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -546,12 +559,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZagrebMuseums/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
