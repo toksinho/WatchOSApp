@@ -20,7 +20,6 @@ class InterfaceController: WKInterfaceController {
         
         fillArrayWithMuseums()
         updateTableRowsWithMuseums()
-        print(museums.count)
     }
     
     override func willActivate() {
@@ -33,6 +32,16 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
+    override func contextForSegue(withIdentifier segueIdentifier: String, in table: WKInterfaceTable, rowIndex: Int) -> Any? {
+        if segueIdentifier == "ShowDetails" {
+            let context: NSDictionary = [
+            "dataSource": museums,
+            "museumIndex": rowIndex] 
+            
+            return context
+        }
+        return nil
+    }
     func fillArrayWithMuseums() {
         let museumsPlist = Bundle.main.path(forResource: "ZagrebMuseums", ofType: "plist")
         let arrayOfMuseums = NSArray(contentsOfFile: museumsPlist!) as! Array<Array<String>>

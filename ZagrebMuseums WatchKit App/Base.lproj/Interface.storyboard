@@ -26,6 +26,7 @@
                                     </group>
                                     <connections>
                                         <outlet property="museumLabel" destination="9JN-rw-5r7" id="ndg-fj-lKt"/>
+                                        <segue destination="N0X-mS-760" kind="push" identifier="ShowDetails" id="6rA-Ec-ppV"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -36,6 +37,36 @@
                     </connections>
                 </controller>
             </objects>
+        </scene>
+        <!--Museum Details Interface Controller-->
+        <scene sceneID="sBF-MI-zrP">
+            <objects>
+                <controller id="N0X-mS-760" customClass="MuseumDetailsInterfaceController" customModule="ZagrebMuseums_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Museum of illusions" textAlignment="left" id="2mc-tF-jdk">
+                            <color key="textColor" red="0.91359108686447144" green="0.10670812763029486" blue="0.07551465159193585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                        <group width="1" alignment="left" layout="vertical" id="RGD-WI-ULc">
+                            <items>
+                                <label alignment="left" text="Address:" id="GtB-Sb-HPt">
+                                    <color key="textColor" red="1" green="0.92194923910000004" blue="0.16485261770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                </label>
+                                <label alignment="left" text="Some long address" id="vV4-Zy-HjR">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="6" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="addressLabel" destination="vV4-Zy-HjR" id="JyR-Xt-z6U"/>
+                        <outlet property="nameLabel" destination="2mc-tF-jdk" id="VdE-oS-RUx"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="541" y="69"/>
         </scene>
     </scenes>
 </document>

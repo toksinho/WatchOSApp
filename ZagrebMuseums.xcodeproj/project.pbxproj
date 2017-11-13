@@ -22,6 +22,7 @@
 		DE1A48221FBA2524009112E5 /* MuseumsTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A48211FBA2524009112E5 /* MuseumsTableRowController.swift */; };
 		DE1A48241FBA2654009112E5 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A48231FBA2654009112E5 /* Museum.swift */; };
 		DE1A482A1FBA2C59009112E5 /* ZagrebMuseums.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1A48291FBA2C59009112E5 /* ZagrebMuseums.plist */; };
+		DE1A482C1FBA2F74009112E5 /* MuseumDetailsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A482B1FBA2F74009112E5 /* MuseumDetailsInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		DE1A48211FBA2524009112E5 /* MuseumsTableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumsTableRowController.swift; sourceTree = "<group>"; };
 		DE1A48231FBA2654009112E5 /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
 		DE1A48291FBA2C59009112E5 /* ZagrebMuseums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ZagrebMuseums.plist; path = ../../ZagrebMuseums.plist; sourceTree = "<group>"; };
+		DE1A482B1FBA2F74009112E5 /* MuseumDetailsInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumDetailsInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				DE1A480F1FBA1E4E009112E5 /* Info.plist */,
 				DE1A48211FBA2524009112E5 /* MuseumsTableRowController.swift */,
 				DE1A48231FBA2654009112E5 /* Museum.swift */,
+				DE1A482B1FBA2F74009112E5 /* MuseumDetailsInterfaceController.swift */,
 			);
 			path = "ZagrebMuseums WatchKit Extension";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1A482C1FBA2F74009112E5 /* MuseumDetailsInterfaceController.swift in Sources */,
 				DE1A480C1FBA1E4E009112E5 /* ExtensionDelegate.swift in Sources */,
 				DE1A48221FBA2524009112E5 /* MuseumsTableRowController.swift in Sources */,
 				DE1A480A1FBA1E4E009112E5 /* InterfaceController.swift in Sources */,

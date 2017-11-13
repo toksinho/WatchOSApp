@@ -12,5 +12,4 @@ class MuseumsTableRowController: NSObject {
     
     @IBOutlet var museumLabel: WKInterfaceLabel!
     
-
 }
