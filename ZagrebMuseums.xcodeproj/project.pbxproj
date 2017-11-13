@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1A47E71FBA1E4E009112E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A47E61FBA1E4E009112E5 /* AppDelegate.swift */; };
+		DE1A47E91FBA1E4E009112E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A47E81FBA1E4E009112E5 /* ViewController.swift */; };
+		DE1A47EC1FBA1E4E009112E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1A47EA1FBA1E4E009112E5 /* Main.storyboard */; };
+		DE1A47EE1FBA1E4E009112E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1A47ED1FBA1E4E009112E5 /* Assets.xcassets */; };
+		DE1A47F11FBA1E4E009112E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1A47EF1FBA1E4E009112E5 /* LaunchScreen.storyboard */; };
+		DE1A47F61FBA1E4E009112E5 /* ZagrebMuseums WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DE1A47F51FBA1E4E009112E5 /* ZagrebMuseums WatchKit App.app */; };
+		DE1A47FC1FBA1E4E009112E5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1A47FA1FBA1E4E009112E5 /* Interface.storyboard */; };
+		DE1A47FE1FBA1E4E009112E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1A47FD1FBA1E4E009112E5 /* Assets.xcassets */; };
+		DE1A48051FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE1A48041FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE1A480A1FBA1E4E009112E5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A48091FBA1E4E009112E5 /* InterfaceController.swift */; };
+		DE1A480C1FBA1E4E009112E5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A480B1FBA1E4E009112E5 /* ExtensionDelegate.swift */; };
+		DE1A480E1FBA1E4E009112E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1A480D1FBA1E4E009112E5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1A47F71FBA1E4E009112E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1A47DB1FBA1E4E009112E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1A47F41FBA1E4E009112E5;
+			remoteInfo = "ZagrebMuseums WatchKit App";
+		};
+		DE1A48061FBA1E4E009112E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1A47DB1FBA1E4E009112E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1A48031FBA1E4E009112E5;
+			remoteInfo = "ZagrebMuseums WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE1A48151FBA1E4E009112E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE1A48051FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A48191FBA1E4E009112E5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DE1A47F61FBA1E4E009112E5 /* ZagrebMuseums WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE1A47E31FBA1E4E009112E5 /* ZagrebMuseums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZagrebMuseums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1A47E61FBA1E4E009112E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE1A47E81FBA1E4E009112E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE1A47EB1FBA1E4E009112E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE1A47ED1FBA1E4E009112E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1A47F01FBA1E4E009112E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE1A47F21FBA1E4E009112E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1A47F51FBA1E4E009112E5 /* ZagrebMuseums WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZagrebMuseums WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1A47FB1FBA1E4E009112E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DE1A47FD1FBA1E4E009112E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1A47FF1FBA1E4E009112E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1A48041FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZagrebMuseums WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1A48091FBA1E4E009112E5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DE1A480B1FBA1E4E009112E5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DE1A480D1FBA1E4E009112E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1A480F1FBA1E4E009112E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1A47E01FBA1E4E009112E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A48011FBA1E4E009112E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1A47DA1FBA1E4E009112E5 = {
+			isa = PBXGroup;
+			children = (
+				DE1A47E51FBA1E4E009112E5 /* ZagrebMuseums */,
+				DE1A47F91FBA1E4E009112E5 /* ZagrebMuseums WatchKit App */,
+				DE1A48081FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension */,
+				DE1A47E41FBA1E4E009112E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1A47E41FBA1E4E009112E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A47E31FBA1E4E009112E5 /* ZagrebMuseums.app */,
+				DE1A47F51FBA1E4E009112E5 /* ZagrebMuseums WatchKit App.app */,
+				DE1A48041FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1A47E51FBA1E4E009112E5 /* ZagrebMuseums */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A47E61FBA1E4E009112E5 /* AppDelegate.swift */,
+				DE1A47E81FBA1E4E009112E5 /* ViewController.swift */,
+				DE1A47EA1FBA1E4E009112E5 /* Main.storyboard */,
+				DE1A47ED1FBA1E4E009112E5 /* Assets.xcassets */,
+				DE1A47EF1FBA1E4E009112E5 /* LaunchScreen.storyboard */,
+				DE1A47F21FBA1E4E009112E5 /* Info.plist */,
+			);
+			path = ZagrebMuseums;
+			sourceTree = "<group>";
+		};
+		DE1A47F91FBA1E4E009112E5 /* ZagrebMuseums WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A47FA1FBA1E4E009112E5 /* Interface.storyboard */,
+				DE1A47FD1FBA1E4E009112E5 /* Assets.xcassets */,
+				DE1A47FF1FBA1E4E009112E5 /* Info.plist */,
+			);
+			path = "ZagrebMuseums WatchKit App";
+			sourceTree = "<group>";
+		};
+		DE1A48081FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A48091FBA1E4E009112E5 /* InterfaceController.swift */,
+				DE1A480B1FBA1E4E009112E5 /* ExtensionDelegate.swift */,
+				DE1A480D1FBA1E4E009112E5 /* Assets.xcassets */,
+				DE1A480F1FBA1E4E009112E5 /* Info.plist */,
+			);
+			path = "ZagrebMuseums WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1A47E21FBA1E4E009112E5 /* ZagrebMuseums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1A481A1FBA1E4E009112E5 /* Build configuration list for PBXNativeTarget "ZagrebMuseums" */;
+			buildPhases = (
+				DE1A47DF1FBA1E4E009112E5 /* Sources */,
+				DE1A47E01FBA1E4E009112E5 /* Frameworks */,
+				DE1A47E11FBA1E4E009112E5 /* Resources */,
+				DE1A48191FBA1E4E009112E5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1A47F81FBA1E4E009112E5 /* PBXTargetDependency */,
+			);
+			name = ZagrebMuseums;
+			productName = ZagrebMuseums;
+			productReference = DE1A47E31FBA1E4E009112E5 /* ZagrebMuseums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1A47F41FBA1E4E009112E5 /* ZagrebMuseums WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1A48161FBA1E4E009112E5 /* Build configuration list for PBXNativeTarget "ZagrebMuseums WatchKit App" */;
+			buildPhases = (
+				DE1A47F31FBA1E4E009112E5 /* Resources */,
+				DE1A48151FBA1E4E009112E5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1A48071FBA1E4E009112E5 /* PBXTargetDependency */,
+			);
+			name = "ZagrebMuseums WatchKit App";
+			productName = "ZagrebMuseums WatchKit App";
+			productReference = DE1A47F51FBA1E4E009112E5 /* ZagrebMuseums WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DE1A48031FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1A48121FBA1E4E009112E5 /* Build configuration list for PBXNativeTarget "ZagrebMuseums WatchKit Extension" */;
+			buildPhases = (
+				DE1A48001FBA1E4E009112E5 /* Sources */,
+				DE1A48011FBA1E4E009112E5 /* Frameworks */,
+				DE1A48021FBA1E4E009112E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZagrebMuseums WatchKit Extension";
+			productName = "ZagrebMuseums WatchKit Extension";
+			productReference = DE1A48041FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1A47DB1FBA1E4E009112E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ivica Tokic";
+				TargetAttributes = {
+					DE1A47E21FBA1E4E009112E5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DE1A47F41FBA1E4E009112E5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DE1A48031FBA1E4E009112E5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE1A47DE1FBA1E4E009112E5 /* Build configuration list for PBXProject "ZagrebMuseums" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1A47DA1FBA1E4E009112E5;
+			productRefGroup = DE1A47E41FBA1E4E009112E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1A47E21FBA1E4E009112E5 /* ZagrebMuseums */,
+				DE1A47F41FBA1E4E009112E5 /* ZagrebMuseums WatchKit App */,
+				DE1A48031FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1A47E11FBA1E4E009112E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A47F11FBA1E4E009112E5 /* LaunchScreen.storyboard in Resources */,
+				DE1A47EE1FBA1E4E009112E5 /* Assets.xcassets in Resources */,
+				DE1A47EC1FBA1E4E009112E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A47F31FBA1E4E009112E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A47FE1FBA1E4E009112E5 /* Assets.xcassets in Resources */,
+				DE1A47FC1FBA1E4E009112E5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A48021FBA1E4E009112E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A480E1FBA1E4E009112E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1A47DF1FBA1E4E009112E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A47E91FBA1E4E009112E5 /* ViewController.swift in Sources */,
+				DE1A47E71FBA1E4E009112E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A48001FBA1E4E009112E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A480C1FBA1E4E009112E5 /* ExtensionDelegate.swift in Sources */,
+				DE1A480A1FBA1E4E009112E5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1A47F81FBA1E4E009112E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1A47F41FBA1E4E009112E5 /* ZagrebMuseums WatchKit App */;
+			targetProxy = DE1A47F71FBA1E4E009112E5 /* PBXContainerItemProxy */;
+		};
+		DE1A48071FBA1E4E009112E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1A48031FBA1E4E009112E5 /* ZagrebMuseums WatchKit Extension */;
+			targetProxy = DE1A48061FBA1E4E009112E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE1A47EA1FBA1E4E009112E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1A47EB1FBA1E4E009112E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1A47EF1FBA1E4E009112E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1A47F01FBA1E4E009112E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1A47FA1FBA1E4E009112E5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1A47FB1FBA1E4E009112E5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1A48101FBA1E4E009112E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE1A48111FBA1E4E009112E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1A48131FBA1E4E009112E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				INFOPLIST_FILE = "ZagrebMuseums WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		DE1A48141FBA1E4E009112E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				INFOPLIST_FILE = "ZagrebMuseums WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		DE1A48171FBA1E4E009112E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				IBSC_MODULE = ZagrebMuseums_WatchKit_Extension;
+				INFOPLIST_FILE = "ZagrebMuseums WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		DE1A48181FBA1E4E009112E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				IBSC_MODULE = ZagrebMuseums_WatchKit_Extension;
+				INFOPLIST_FILE = "ZagrebMuseums WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		DE1A481B1FBA1E4E009112E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				INFOPLIST_FILE = ZagrebMuseums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1A481C1FBA1E4E009112E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFNY78ZLT2;
+				INFOPLIST_FILE = ZagrebMuseums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZagrebMuseums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1A47DE1FBA1E4E009112E5 /* Build configuration list for PBXProject "ZagrebMuseums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A48101FBA1E4E009112E5 /* Debug */,
+				DE1A48111FBA1E4E009112E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1A48121FBA1E4E009112E5 /* Build configuration list for PBXNativeTarget "ZagrebMuseums WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A48131FBA1E4E009112E5 /* Debug */,
+				DE1A48141FBA1E4E009112E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1A48161FBA1E4E009112E5 /* Build configuration list for PBXNativeTarget "ZagrebMuseums WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A48171FBA1E4E009112E5 /* Debug */,
+				DE1A48181FBA1E4E009112E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1A481A1FBA1E4E009112E5 /* Build configuration list for PBXNativeTarget "ZagrebMuseums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A481B1FBA1E4E009112E5 /* Debug */,
+				DE1A481C1FBA1E4E009112E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1A47DB1FBA1E4E009112E5 /* Project object */;
+}
